@@ -1,13 +1,12 @@
-document.addEventListener('DOMContentLoaded',()=>{
-    const hamburger=document.getElementById('hamburger');
-    const navMenu=document.getElementById('nav-menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
 
-    hamburger.addEventListener('click',()=>{
+    hamburger.addEventListener('click', () => {
         navMenu.classList.toggle('show');
-    })
+    });
 
-    navMenu.addEventListener('click',()=>{
+    navMenu.addEventListener('click', () => {
         navMenu.classList.toggle('show');
-    })
-})
-
+    });
+});
