@@ -48,7 +48,7 @@ a{
 
 
 .section1{
-    background-image: url('/CoffeePhotosCafeAmikoo/background.png');
+    background-image: url('CoffeePhotosCafeAmikoo/background.png');
     /* min-height:100vh ; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ h1{
 
 .section1{
     position: relative;
-    background-image: url('/CoffeePhotosCafeAmikoo/mobilebg.jpeg');
+    background-image: url('CoffeePhotosCafeAmikoo/mobilebg.jpeg');
     min-height:100vh ;
     background-size: contain;
     background-repeat: no-repeat;
