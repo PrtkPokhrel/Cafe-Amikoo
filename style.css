@@ -50,7 +50,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .section1-content {
@@ -73,6 +73,93 @@ h1 {
     color: white;
     font-size: 2em;
 }
+
+/* Section 2 starts from here */
+
+.section2{
+    background-color: #EAE4E0;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+}
+
+.section2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    /* width: 80%; */
+}
+
+
+.section2--content__p{
+    margin-top: 1rem;
+    /* padding: 0 1rem; */
+    /* width: 90%; */
+
+}
+.section2--content__h2 h2{
+     text-align: center;
+}
+.section2--content__p p{
+    text-align: center;
+    letter-spacing:0.02rem ;
+    line-height: 1.2rem;
+}
+
+
+
+
+/* Section3 starts from here */
+.section3{
+}
+.section3--content__top img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.section3--content__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+
+h3{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-size: 1.2rem;
+}
+.section3--content__bottom__p{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.section3--content__bottom__p p{
+    text-align: center;
+    letter-spacing: 0.02rem;
+    line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
