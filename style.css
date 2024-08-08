@@ -50,6 +50,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    border: 2px solid red;
 }
 
 .section1-content {
@@ -63,22 +64,30 @@ a {
 }
 
 .btn1 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0.7rem;
     border-radius: 5px;
 }
 
 h1 {
     color: white;
-    font-size: 3em;
+    font-size: 2em;
 }
+
+
+
+
+
+
+/* Media query*/
 
 @media (max-width: 700px) {
     .section1 {
         position: relative;
         background-image: url('CoffeePhotosCafeAmikoo/mobilebg.jpeg');
-        min-height: 100vh;
-        background-size: contain;
+        min-height: 20vh;
+        /* max-width:max-content; */
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
     }
