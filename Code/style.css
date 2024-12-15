@@ -1,0 +1,1369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+.navContainer {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    color: #282222;
+    font-family: Pacifico;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 3.5rem;
+}
+
+.navImg {
+    position: absolute;
+    right: 0;
+    top: -5rem;
+
+}
+
+/* Header Starts from here */
+.everyCup_Mobile {
+    display: none;
+}
+
+.header_top {
+    margin-top: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.shopNow {
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+}
+
+
+.shopNow_container {
+    display: flex;
+    align-items: center;
+
+}
+
+.shopNow_img1 {
+    position: absolute;
+
+}
+
+.btn-primary {
+    width: 6.6875rem;
+    height: 2.5625rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: #DDA15E;
+    margin-left: 3.5rem;
+}
+
+.btn-primary {
+    color: #000;
+    font-family: Delius;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1rem;
+}
+
+.header_bottom {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.sipLove {
+    margin: 0 auto;
+    color: #000;
+    font-family: Delius;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 6rem;
+}
+
+.love {
+    width: 11.375rem;
+    height: 5rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #DDA15E;
+    padding: 0 1rem;
+}
+
+
+
+/* Section1 starts here */
+
+.section1Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section1_curvedLine {
+    position: absolute;
+    left: 4rem;
+    top: 1rem;
+}
+
+.section1_coffeeCup {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Section2 Starts here */
+
+.section2 {
+    position: relative;
+    margin-top: -11rem;
+
+}
+
+.designVector {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.coffeeBag {
+    position: absolute;
+    margin-top: -3rem;
+}
+
+.group61 {
+    width: 100%;
+    margin-top: 15rem;
+}
+
+/* Product Section starts from here */
+
+
+.sectionProduct {
+    margin-top: 30%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.sectionProduct_bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.sectionProduct_top {
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularProduct {
+    color: #000;
+    font-family: Delius;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2rem;
+}
+
+.product_beans1 {
+    margin-right: 4rem;
+    margin-top: -3rem;
+}
+
+.sectionProduct_mid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.product {
+
+    /* width: 27.9375rem; */
+    width: 25%;
+    flex-shrink: 0;
+    border-radius: 3.5rem;
+    background: linear-gradient(90deg, #FFEBD3 20.5%, #DDA15E 100%);
+    box-shadow: -7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.product_img {
+    padding-top: 2rem;
+    width: 60%;
+    padding-bottom: 10rem;
+
+}
+
+
+.sectionProduct_bottom {
+
+    margin-top: 2rem;
+    position: relative;
+}
+
+.product_beans2 {
+    position: absolute;
+    right: 1rem;
+}
+
+/* Review section starts frome here */
+
+.reviewTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25%;
+}
+
+.reviewTop_header {
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.reviewTop_img1 {
+    width: 5%;
+}
+
+.reviewMid {
+    position: relative;
+    display: flex;
+}
+
+.reviewMid_img1 {
+    position: absolute;
+    right: 0;
+    top: -5rem;
+    width: 10%;
+}
+
+.reviewMid_container {
+    display: none;
+}
+
+
+
+.dot.active {
+    background-color: #000;
+}
+
+
+.reviewMid_container {
+    position: absolute;
+    margin-top: 4rem;
+    left: 50%;
+    overflow: hidden;
+    transform: translateX(-50%);
+    width: 81.0625rem;
+    height: 36rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #FFEBD3;
+    box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.reviewMid_container.active {
+    display: flex;
+}
+
+
+
+.reviewMessage {
+    width: 90%;
+    color: #000;
+    text-align: center;
+    font-family: Delius;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7%;
+}
+
+.reviewPersonImg {
+    margin-top: -4%;
+}
+
+.reviewPersonName {
+    margin-top: 1rem;
+    color: #000;
+    text-align: center;
+    font-family: Delius;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviewPersonPost {
+    margin-top: 1rem;
+    color: #000;
+    text-align: center;
+    font-family: Delius;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviewBottom {
+    margin-top: 40rem;
+}
+
+.reviewBottom_img1 {
+    width: 10%;
+}
+
+
+.indicators {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    top: 36rem;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #000;
+}
+
+
+/* Footer starts from here */
+.card {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    position: relative;
+}
+
+.cardContainer {
+    /* background-image: url('/Assets/Group\ 59.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;*/
+
+
+    /* width: 80%; */
+    /* padding: 0 3%; */
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.cardImg1 {
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    max-width: 90%;
+
+}
+
+
+
+.cardLeft {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 30%;
+    /* margin-top: -9rem; */
+    left: 13%;
+    top: 5%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.cardLogos_img1 {
+    width: 70%;
+    margin-top: 12%;
+}
+
+.logo_text {
+    color: #282222;
+    font-family: Pacifico;
+    font-size: 1.7vw;
+    /* font-size: 2rem; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Amikoo {
+    color: #282222;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address {
+    color: #000;
+    font-family: Delius;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15% 0;
+}
+
+.mapsContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+
+}
+
+.textMaps {
+    color: #000;
+    font-family: Delius;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mapImg {
+    width: 85%;
+}
+
+.customerSupport {
+    color: #FFEBD3;
+    font-family: Delius;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20%;
+    margin-bottom: 1rem;
+}
+
+.phoneNumber {
+    color: #000;
+    font-family: Delius;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -.5rem;
+}
+
+.phoneNumber {
+    margin-left: 2vw;
+}
+
+.left_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_right {
+    /* height: 100%; */
+    width: 50%;
+}
+
+.right_right_img1 {
+
+    /* padding-top: 1rem; */
+    width: 95%;
+    margin-top: -1rem;
+}
+
+a {
+    color: black;
+}
+
+.reachUs {
+    position: absolute;
+    bottom: 5%;
+    color: #FFEBD3;
+    font-family: Delius;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40%;
+    /* margin-bottom: 1rem; */
+}
+
+.mailAddress {
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    font-family: Delius;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2vw;
+    font-size: 1vw;
+    margin-top: -.5rem;
+}
+
+.cardMid {
+    margin-left: 30%;
+    display: flex;
+    margin-top: 22%;
+    /* align-items: center; */
+}
+
+ 
+
+li {
+    color: #000;
+    font-family: Delius;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15% 0;
+}
+
+.about {
+    margin-left: 4rem;
+}
+
+.blog {
+    margin-left: 2rem;
+}
+
+.community {
+    margin-left: 0;
+}
+
+.contact {
+    margin-left: -2rem;
+}
+
+.team {
+    margin-left: -4rem;
+}
+
+.privacy {
+    margin-left: -2rem;
+}
+
+
+.terms {
+    margin-left: 0;
+}
+
+.buy {
+    margin-left: 2rem;
+}
+
+
+.copyright {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.copyrightImg1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.socialMedias {
+    max-width: 100%;
+    position: absolute;
+    margin-top: 4rem;
+}
+
+.copyrightText {
+    position: absolute;
+    margin-top: 12rem;
+    color: #1E1E1E;
+    font-family: Delius;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01875rem;
+}
+
+
+.cardRightContainer {
+    position: absolute;
+    border: 2px solid blue;
+    right: 15%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 11%;
+    max-width: 25%;
+}
+
+.sub {
+    color: #000;
+    font-family: Delius;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4%;
+}
+
+.emailContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 9%;
+    /* width: 100%; */
+}
+
+#email {
+    position: absolute;
+    padding: 4%;
+    border-radius: 20px;
+    width: 90%;
+    background: #FFF;
+    box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.emailSend_btn {
+    position: absolute;
+    padding: .7%;
+    margin-right: 5%;
+    border-radius: 50px;
+    background: #DDA15E;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Delius;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardJugContainer {
+    position: absolute;
+    right: 14%;
+    bottom: -10%;
+    display: flex;
+    justify-content: right;
+    /* height: 100%; */
+}
+
+ 
+
+/* Social Media Container starts from here */
+
+.socialMedias {
+    margin-top: 20%;
+    width: 100%;
+    position: relative;
+
+}
+
+.socialMedia_img1 {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.socialMediasContainer {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.socialMedia_icon {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.cont {
+    margin-top: 15rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    /* border: 2px solid green; */
+}
+
+.a_img{
+    max-width: 70%;
+}
+
+.stick {
+    width: 30%;
+}
+
+.info_cafe {
+    color: #282222;
+    font-family: Pacifico;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copyright {
+    color: #1E1E1E;
+    font-family: Delius;
+    font-size: 91%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.infoContainer {
+    gap: 3%;
+    width: 100%;
+    position: absolute;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Media query starts from here */
+
+
+
+
+
+@media (max-width:700px) {
+
+
+    nav {
+        margin-top: -3rem;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .logo {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    .navImg {
+        width: 40%;
+        margin-top: 5rem;
+    }
+
+
+    /* Header Section starts here */
+    .everyCup {
+        display: none;
+    }
+
+    .everyCup_Mobile {
+        display: block;
+        height: 4rem;
+    }
+
+    .everyCup_Mobile {
+        margin-top: 30%;
+    }
+
+    .shopNow {
+        margin-top: 1rem;
+        padding-right: 3rem;
+    }
+
+    .shopNow_img1 {
+        width: 3rem;
+        margin-left: 2rem;
+    }
+
+    .btn-primary {
+        width: 4.6rem;
+        font-size: .7rem;
+        height: 1.75rem;
+    }
+
+    .header_bottom {
+        margin-top: 3rem;
+    }
+
+    .header_bottom_img1 {
+        width: 10%;
+        margin-top: -11rem;
+    }
+
+    .sipLove {
+        font-size: 2rem;
+    }
+
+    /* Section1 starts here */
+
+    .section1 {
+        margin-bottom: 2rem;
+    }
+
+    .section1_curvedLine {
+        display: none;
+    }
+
+    .section1_coffeeCup {
+        width: 60%;
+        margin-top: 1rem;
+    }
+
+
+    /* Secttion2 starts here */
+
+
+
+    .coffeeBag {
+        width: 12%;
+        margin-top: 3rem;
+    }
+
+
+    .designVector {
+        margin-top: 4rem;
+    }
+
+    .group61 {
+        margin-top: 7rem;
+
+    }
+
+    /* Section product starts from here */
+
+
+
+
+
+    .popularProduct {
+        color: #000;
+        font-family: Delius;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .product_beans1 {
+        width: 2.1875rem;
+        height: 1.9375rem;
+        flex-shrink: 0;
+        margin-top: -1rem;
+    }
+
+    .product {
+        height: 12rem;
+        flex-shrink: 0;
+        border-radius: 1.25rem;
+    }
+
+    .sectionProduct_mid {
+        margin-top: 1rem;
+    }
+
+     
+    .product_beans2 {
+        width: 2.1875rem;
+        height: 1.9375rem;
+        flex-shrink: 0;
+    }
+
+
+
+    /* Section review starts from here */
+
+    .reviewTop_header {
+        color: #000;
+        text-align: center;
+        font-family: Delius;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .reviewTop_img1 {
+        width: 15%;
+    }
+
+    .reviewMid_img1 {
+        width: 18%;
+    }
+
+    .reviewMessage {
+        font-size: .8rem;
+        margin-top: 2rem;
+    }
+
+    .reviewPersonImg {
+        width: 10%;
+    }
+
+    .reviewPersonName {
+        font-size: 0.75rem;
+        margin-top: .5rem;
+    }
+
+    .reviewPersonPost {
+        font-size: 0.5rem;
+        margin-bottom: 6rem;
+        margin-top: 0rem;
+    }
+
+    .indicators {
+        top: 17rem;
+    }
+
+    .dot {
+        height: 9px;
+        width: 9px;
+        gap: 12px;
+    }
+
+    .reviewMid_container {
+        height: 15rem;
+        justify-content: space-around;
+        border-radius: 1.25rem;
+    }
+
+    .reviewBottom {
+        margin-top: 21rem;
+    }
+
+    .reviewBottom_img1 {
+        width: 18%;
+    }
+
+
+
+    /* Card Left  */
+
+    .cardLeft {
+        gap: 8%;
+        top: 0%;
+    }
+
+    .customerSupport {
+        color: #FFEBD3;
+        font-family: Delius;
+        font-size: 42%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 6rem;
+    }
+
+    .left_left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cardLogos_img1 {
+        margin-top: 3%;
+    }
+
+    .customerSupport {
+        margin-top: 10%;
+
+    }
+
+    .reachUs {
+        margin-top: .1rem;
+        color: #FFEBD3;
+        font-family: Delius;
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .right_right_img1 {
+        width: 100%;
+    }
+
+ 
+
+    .mapsContainer {
+        gap: .2rem;
+        margin-top: -14%;
+    }
+
+    .mapImg {
+        width: 50%;
+    }
+
+    .map {
+        align-items: start;
+    }
+
+    .logo_text {
+        margin-bottom: 9%;
+    }
+
+    .textMaps {
+        color: #000;
+        font-family: Delius;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .phoneNumber {
+        color: #000;
+        font-family: Delius;
+        font-size: 22%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -.8rem;
+    }
+
+    .mailAddress {
+        color: #000;
+        font-family: Delius;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    li {
+        margin: .5rem 0;
+    }
+
+    .about {
+        margin-left: 1rem;
+
+    }
+
+    .blog {
+        margin-left: 0rem;
+    }
+
+    .community {
+        margin-left: -1rem;
+    }
+
+    .contact {
+        margin-left: -2rem;
+    }
+
+    .team {
+        margin-left: -3rem;
+    }
+
+    .privacy {
+        margin-left: -2rem;
+    }
+
+
+    .terms {
+        margin-left: -1rem;
+    }
+
+    .buy {
+        margin-left: 0rem;
+
+    }
+
+    a {
+        color: black;
+    }
+
+
+
+    .cardRight {
+        width: 50%;
+    }
+
+    .cardJugImg {
+        width: 18%;
+    }
+
+
+    .copyrightImg1 {
+        width: 100%;
+    }
+
+    .socialMedias {
+        margin-top: 1rem;
+    }
+
+    .copyrightText {
+        margin-top: 3rem;
+        color: #1E1E1E;
+        font-family: Delius;
+        font-size: 0.375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.00563rem;
+    }
+
+    .socialMedias {
+        margin-top: 14rem;
+    }
+
+    .reachUs {
+        bottom: 7%;
+        color: #FFEBD3;
+        font-family: Delius;
+        font-size: 42%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mailAddress {
+        font-size: 22%;
+    }
+
+  
+    li {
+        margin: 5% 0;
+    }
+
+
+    .about {
+        margin-left: 3rem;
+    }
+
+    .blog {
+        margin-left: 2rem;
+    }
+
+    .community {
+        margin-left: 1rem;
+    }
+
+    .contact {
+        margin-left: 0rem;
+    }
+
+    .team {
+        margin-left: -1rem;
+    }
+
+    .privacy {
+        margin-left: 0rem;
+    }
+
+
+    .terms {
+        margin-left: 1rem;
+    }
+
+    .buy {
+        margin-left: 2rem;
+    }
+
+    .cardRightContainer {
+        padding-top: 9%;
+        right: 13%;
+    }
+
+    .sub {
+        color: #000;
+        font-family: Delius;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #email {
+        font-size: 2%;
+        border: none;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 5% 3%;
+    }
+
+    .emailSend_btn {
+        border-radius: 2px;
+        font-size: 2%;
+        border: none;
+        border-radius: 50px;
+        background: #DDA15E;
+        box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 2%;
+    }
+
+    .cardJugContainer {
+        bottom: -20%;
+    }
+
+    .socialMedias {
+        margin-top: 15%;
+    }
+
+    .info_cafe {
+        color: #282222;
+        font-family: Pacifico;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -.5rem;
+    }
+
+    .copyright {
+        color: #1E1E1E;
+        font-family: Delius;
+        font-size: 6px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.09px;
+        margin-top: -.1rem;
+
+    }
+
+    
+
+  
+}
+
+
+
+
+
+@media(min-width: 300px) and (max-width:480px) {
+    .product {
+        height: 10rem;
+    }
+
+ 
+}
+
+
+
+@media (min-width:701px) and (max-width:900px){
+
+    .cardJugContainer{
+        bottom: -2%;
+    }
+
+    .cardJugImg{
+        width: 40%;
+    }
+
+    .sub{
+        font-size: 1.5rem;
+    }
+
+    .emailSend_btn{
+        font-size: 1rem;
+    }
+   
+}
+
+
+@media (min-width:901px)and (max-width:1200px) {
+
+    .logo{
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+
+    .navImg{
+        width: 40%;
+    }
+
+    .header_top{
+        margin-top: 13rem;
+    }
+
+    .cardContainer {
+        background-size: contain;
+
+    }
+
+    .cardJugImg{
+        width: 50%;
+    }
+
+    .cardRightContainer{
+        padding-top: 6%;
+        right: 11%;
+    }
+}
+
+
+@media (min-width:1201px)and (max-width:1800px) {
+
+    .header_top{
+        margin-top: 13rem;
+    }
+
+    .cardJugImg{
+        width: 60%;
+    }
+}
+
+
+ 

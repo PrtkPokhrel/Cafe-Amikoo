@@ -1,0 +1,8 @@
+ <svg width="700" xmlns="http://www.w3.org/2000/svg" class="cupChild1_svg">
+   <path id="curve" d="M 10 350 A 200 200 0 0 1 650 350" fill="transparent" stroke="transparent" />
+   <text font-size="2.5rem" fill="black" font-weight="400" font-family="Delius" letter-spacing="0.5rem">
+     <textPath href="#curve" startOffset="50%" text-anchor="middle">
+       Every cup tells a story
+     </textPath>
+   </text>
+ </svg>
